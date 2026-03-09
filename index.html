@@ -73,6 +73,7 @@ color:white;
 
 #no{
 background:#dddddd;
+touch-action:none;
 }
 
 #message{
@@ -204,10 +205,10 @@ no.style.top = y+"px"
 
 }
 
-no.addEventListener("mouseover", moveButton)
-no.addEventListener("touchstart", moveButton)
+no.addEventListener("pointerenter", moveButton)
 
 </script>
 
 </body>
+
 </html>
